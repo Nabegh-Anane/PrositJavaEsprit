@@ -2,6 +2,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Produit {
+    // question 1
     int id;
     String lib;
     String brand;
@@ -54,12 +55,12 @@ public class Produit {
     }
 
     public static void main(String[] args) {
-        // Initializing expiration dates
+        // question 8
         Date date1 = new Date(2024 - 1900, 9, 30);
         Date date2 = new Date(2024 - 1900, 10, 5);
         Date date3 = new Date(2025 - 1900, 1, 15);
 
-        // Creating products
+        // question 2 vers 8
         Produit a = new Produit(1021, "Lait", "Delice", 0.0, date1);
         Produit b = new Produit(2510, "Yaourt", "Vitalait", 0.0, date2);
         Produit c = new Produit(3250, "Tomate", "Sicam", 1.2, date3);
